@@ -16,3 +16,5 @@ docker-compose --version
 yum install -y htop snapd
 systemctl enable --now snapd.socket
 ln -s /var/lib/snapd/snap /snap
+curl -o /etc/yum.repos.d/konimex-neofetch-epel-7.repo https://copr.fedorainfracloud.org/coprs/konimex/neofetch/repo/epel-7/konimex-neofetch-epel-7.repo
+yum install neofetch
